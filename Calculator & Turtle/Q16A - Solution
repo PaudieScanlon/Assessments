@@ -1,0 +1,17 @@
+#Question 16A
+#Name:
+
+#This calculator can only add and subtract
+#num1 = 5
+#num2 = 10
+
+user = input("Please enter your name: ")
+print("Welcome to the calculator", user)
+num1 = int(input("Please enter the first number for the calculator: "))
+num2 = int(input("Please enter the second number for the calculator: "))
+choice = str(input("Do you wish to (a)dd or (s)ubtract the numbers?"))
+
+if choice.lower() == "a":
+   print(num1, "+", num2, "=", num1+num2)
+elif choice.lower() == "s":
+   print (num1, "-", num2, "=", num1-num2)
